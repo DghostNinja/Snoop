@@ -31,8 +31,7 @@ COMMON_REDIRECT_PARAMS = ["redirect", "url", "next", "return", "returnTo", "dest
 # Common payloads for open redirect testing with different variations
 PAYLOADS = [
     "http://evil.com", "https://attacker.com", "//evil.com", "//google.com", "//127.0.0.1", "//localhost",
-    "\\evil.com", "%2Fevil.com", "%2F%2Fevil.com", "%5C%5Cevil.com",
-    "targetsite.com@evil.com", "targetsite.com//evil.com", "//www.google.com/%2Fevil.com"
+    "\\evil.com", "%2Fevil.com", "%2F%2Fevil.com", "%5C%5Cevil.com", "@evil.com", "//\\evil.com"
 ]
 
 # Function to setup Selenium headless browser
