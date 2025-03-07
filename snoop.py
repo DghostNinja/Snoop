@@ -43,7 +43,7 @@ PAYLOADS = [
     "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c", "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c",
     "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c", "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c",
     "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c", "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c",
-    "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c", "///attacker.com/%5c%5c%5c%5c%5c%
+    "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c", "///attacker.com/%5c%5c%5c%5c%5c%"
 ]
 
 # Function to setup Selenium headless browser
