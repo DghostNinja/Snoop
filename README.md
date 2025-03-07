@@ -43,7 +43,7 @@ It checks for both server-side and JavaScript-based redirects using common param
 Run the script and enter a target URL when prompted:
 
 ```sh
-python snoop.py
+python3 snoop.py
 ```
 
 ## Example
