@@ -101,6 +101,8 @@ Enter the target website URL: https://example.com
 [+] Testing for JavaScript-based redirects...
 [!!] JavaScript Redirect Detected: http://attacker.com
 ```
+### You can test with this vulnerable docker built for open redirect testing 
+   ***Link: https://github.com/DghostNinja/vulnerable-redirect-app***
 
 ## Troubleshooting
 
