@@ -7,7 +7,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 # ASCII Banner
-ASCII_BANNER = """
+ASCII_BANNER = r"""
    ___|                              
  \___ \   __ \    _ \    _ \   __ \  
        |  |   |  (   |  (   |  |   | 
