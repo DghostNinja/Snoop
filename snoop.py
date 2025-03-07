@@ -27,7 +27,9 @@ USER_AGENTS = [
 
 # Common redirect parameters developers use
 COMMON_REDIRECT_PARAMS = ["redirect", "url", "next", "return", "returnTo", "destination", "goto", "forward", "continue",
-    "redir", "path", "uri", "out", "view", "file", "ref", "site", "u", "image_url", "go", "return_url"]
+    "redir", "path", "uri", "out", "view", "file", "ref", "site", "u", "image_url", "go", "return_url", "next", "url", "target", "rurl", "dest", "destination", "redir", "redirect_uri", 
+        "redirect_url", "redirect", "view", "/login?to", "image_url", "go", "return", 
+        "returnTo", "return_to", "checkout_url", "continue", "return_path", "/", "redirect", "cgi-bin/redirect.cgi?", "out" ]
 
 # Common payloads for open redirect testing with different variations
 PAYLOADS = [
