@@ -77,6 +77,5 @@ Enter the target website URL: https://example.com
 
 This tool is for educational and security testing purposes only.  
 Do **not** use it on systems without explicit permission.
-```
 
 ### 🚀
