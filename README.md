@@ -1,5 +1,4 @@
 
-```md
 # Snoop - The Open Redirect Tester
 
 ## Description
@@ -80,12 +79,4 @@ This tool is for educational and security testing purposes only.
 Do **not** use it on systems without explicit permission.
 ```
 
----
-
-### Summary of Fixes:
-✅ Fixed repository folder mismatch (`cd Snoop`).  
-✅ Recommended using `pip3` to avoid Python version issues.  
-✅ Added `webdriver-manager` to simplify ChromeDriver setup.  
-✅ Included a **Troubleshooting** section for common issues.  
-
-Everything is now clean, clear, and user-friendly! 🚀
+### 🚀
