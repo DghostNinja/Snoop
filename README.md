@@ -1,6 +1,4 @@
 
-
-### Final Version of the README with Fixes:
 ```md
 # Snoop - The Open Redirect Tester
 
