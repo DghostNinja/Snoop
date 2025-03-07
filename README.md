@@ -1,4 +1,6 @@
-### `README.md`
+
+
+### Final Version of the README with Fixes:
 ```md
 # Snoop - The Open Redirect Tester
 
@@ -9,11 +11,11 @@ It checks for both server-side and JavaScript-based redirects using common param
 
 ## Features
 
-- Detects open redirects using common redirect parameters (`redirect`, `url`, `next`, etc.).
-- Uses various payloads to identify potential vulnerabilities.
-- Supports session-aware testing (cookies).
-- Detects JavaScript-based redirects using Selenium.
-- Randomized user-agents and request delays for stealth.
+- ✅ Detects open redirects using common redirect parameters (`redirect`, `url`, `next`, etc.).
+- ✅ Uses various payloads to identify potential vulnerabilities.
+- ✅ Supports session-aware testing (cookies).
+- ✅ Detects JavaScript-based redirects using Selenium.
+- ✅ Randomized user-agents and request delays for stealth.
 
 ## Requirements
 
@@ -25,18 +27,22 @@ It checks for both server-side and JavaScript-based redirects using common param
 
 1. Clone the repository:
    ```sh
-   git clone https://git@github.com:DghostNinja/Snoop.git
-   cd open-redirect-tester
+   git clone https://github.com/DghostNinja/Snoop.git
+   cd Snoop
    ```
 
 2. Install dependencies:
    ```sh
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 3. Ensure you have Google Chrome and ChromeDriver installed:
    - [Download Chrome](https://www.google.com/chrome/)
    - [Download ChromeDriver](https://chromedriver.chromium.org/downloads)
+   - Or use `webdriver-manager`:
+     ```sh
+     pip3 install webdriver-manager
+     ```
 
 ## Usage
 
@@ -57,9 +63,31 @@ Enter the target website URL: https://example.com
 [!!] JavaScript Redirect Detected: http://attacker.com
 ```
 
+## Troubleshooting
+
+- **ChromeDriver Errors**: Ensure ChromeDriver is installed and matches your Chrome version.
+- **Permission Issues**: Run with elevated permissions:
+  ```sh
+  chmod +x snoop.py
+  python3 snoop.py
+  ```
+- **WebDriver Issues**: If ChromeDriver is missing or outdated, install `webdriver-manager`:
+  ```sh
+  pip3 install webdriver-manager
+  ```
+
 ## Disclaimer
 
 This tool is for educational and security testing purposes only.  
 Do **not** use it on systems without explicit permission.
 ```
 
+---
+
+### Summary of Fixes:
+✅ Fixed repository folder mismatch (`cd Snoop`).  
+✅ Recommended using `pip3` to avoid Python version issues.  
+✅ Added `webdriver-manager` to simplify ChromeDriver setup.  
+✅ Included a **Troubleshooting** section for common issues.  
+
+Everything is now clean, clear, and user-friendly! 🚀
