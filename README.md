@@ -37,9 +37,9 @@ It checks for both server-side and JavaScript-based redirects using common param
    - [Download Chrome](https://www.google.com/chrome/)
    - [Download ChromeDriver](https://chromedriver.chromium.org/downloads)
    - Or use `webdriver-manager`:
-     ```sh
-     pip3 install webdriver-manager
-     ```
+   ```sh
+   pip3 install webdriver-manager
+   ```
 
 ## Running the Tool
 
