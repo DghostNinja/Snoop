@@ -1,5 +1,3 @@
----
-
 ### `README.md`
 ```md
 # Snoop - The Open Redirect Tester
