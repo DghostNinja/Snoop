@@ -52,6 +52,14 @@ python3 snoop.py
 ## Example
 
 ```plaintext
+   ___|                              
+ \___ \   __ \    _ \    _ \   __ \  
+       |  |   |  (   |  (   |  |   | 
+ _____/  _|  _| \___/  \___/   .__/  
+                              _|     
+
+        Open Redirect Tester by iPsalmy
+
 Enter the target website URL: https://example.com
 [>] Testing: https://example.com?redirect=http://evil.com
 [!!] Possible Open Redirect! Status: 302, Location: http://evil.com
