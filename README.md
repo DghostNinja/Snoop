@@ -107,7 +107,6 @@ Enter the target website URL: https://example.com
 ##
 
 
-
 ## Troubleshooting
 
 - **ChromeDriver Errors**: Ensure ChromeDriver is installed and matches your Chrome version.
