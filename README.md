@@ -65,8 +65,3 @@ Do **not** use it on systems without explicit permission.
 
 ---
 
-### `requirements.txt`
-```txt
-requests
-selenium
-```
