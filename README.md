@@ -1,5 +1,5 @@
-
 # Snoop - The Open Redirect Tester
+
 
 ## Description
 
@@ -41,18 +41,52 @@ It checks for both server-side and JavaScript-based redirects using common param
      pip3 install webdriver-manager
      ```
 
-## Usage
+## Running the Tool
 
-Run the script and enter a target URL when prompted:
-
+To run the script manually:
 ```sh
 python3 snoop.py
 ```
 
-## Example
+## Adding Snoop to `/usr/bin/` for Global Access
+
+To run `snoop` from anywhere in the terminal, follow these steps:
+
+1️⃣ **Make the script executable**  
+```sh
+chmod +x snoop.py
+```
+
+2️⃣ **Move it to `/usr/bin/`**  
+```sh
+sudo mv snoop.py /usr/bin/snoop
+```
+or create a symbolic link:
+```sh
+sudo ln -s "$(pwd)/snoop.py" /usr/bin/snoop
+```
+
+3️⃣ **Run from anywhere**  
+Now, you can simply type:
+```sh
+snoop
+```
+instead of `python3 snoop.py`.
+
+### Alternative: Using a Python Shebang (`#!`)
+Modify the first line of `snoop.py` to specify the Python interpreter:
+```python
+#!/usr/bin/env python3
+```
+This ensures that it runs with Python 3 when executed.
+
+Then, repeat **Step 1** and **Step 2**, and now you can execute `snoop` globally.
+
+## Example Usage
 
 ```plaintext
-   ___|                              
+
+  ___|                              
  \___ \   __ \    _ \    _ \   __ \  
        |  |   |  (   |  (   |  |   | 
  _____/  _|  _| \___/  \___/   .__/  
@@ -84,6 +118,4 @@ Enter the target website URL: https://example.com
 ## Disclaimer
 
 This tool is for educational and security testing purposes only.  
-Do **not** use it on systems without explicit permission.
-
-### 🚀
+Do **not** use it on systems without explicit permission.🚀
