@@ -1,10 +1,8 @@
-Here's everything you need to copy and paste into GitHub:
-
 ---
 
 ### `README.md`
 ```md
-# Open Redirect Tester
+# Snoop - The Open Redirect Tester
 
 ## Description
 
@@ -29,7 +27,7 @@ It checks for both server-side and JavaScript-based redirects using common param
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/open-redirect-tester.git
+   git clone https://git@github.com:DghostNinja/Snoop.git
    cd open-redirect-tester
    ```
 
@@ -47,7 +45,7 @@ It checks for both server-side and JavaScript-based redirects using common param
 Run the script and enter a target URL when prompted:
 
 ```sh
-python open_redirect_tester.py
+python snoop.py
 ```
 
 ## Example
